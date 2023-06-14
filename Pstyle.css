@@ -1,0 +1,32 @@
+.Form-container{
+    border: 3px solid rgba(2, 2, 31, 0.773);
+    display: flex;
+    justify-content: center ;
+  background-color: black;
+  
+    
+}
+.form{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background: rgba(23, 23, 63, 0.908);
+    text-indent: 20px;
+    color: white;
+    margin: 200px;
+    
+}
+.form > input{
+    height: 40px;
+    margin: 0px 20px 30px 20px;
+
+    border-radius: 10px;
+    color: white;
+}
+.input{
+    background-color: rgb(44, 45, 66);
+}
+.submit{
+    background-color: rgb(16, 115, 202);
+}
