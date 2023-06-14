@@ -1,0 +1,16 @@
+.form-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.form{
+display: flex;
+flex-direction: column;
+width: 50%;
+background: rgb(138, 207, 111) ;
+/* margin: 20px 0 2px 0; */
+}
+.form > input{
+    background-color: transparent;
+}
