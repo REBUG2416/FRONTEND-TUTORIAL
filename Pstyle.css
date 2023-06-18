@@ -1,3 +1,5 @@
+
+
 .Form-container{
     border: 3px solid rgba(2, 2, 31, 0.773);
     display: flex;
@@ -7,11 +9,12 @@
     
 }
 .form{
+    font-family: sans-serif;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     width: 20%;
-    background: rgba(23, 23, 63, 0.908);
+    background: rgba(49, 49, 84, 0.581);
     text-indent: 20px;
     color: white;
     margin: 200px;
@@ -20,12 +23,13 @@
 .form > input{
     height: 40px;
     margin: 0px 20px 30px 20px;
-
+    text-indent: 15px;
     border-radius: 10px;
+    border-color: transparent;
     color: white;
 }
 .input{
-    background-color: rgb(44, 45, 66);
+    background-color: rgba(57, 58, 81, 0.841);
 }
 .submit{
     background-color: rgb(16, 115, 202);

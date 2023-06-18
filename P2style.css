@@ -1,0 +1,107 @@
+.back{
+    background-color: black;
+}
+.body{
+    font-family: sans-serif;
+    background-color: rgb(97, 193, 241);
+    color: white;
+    margin: 50px 50px 0px 50px;
+ padding: 200px 0px 190px 0px;  
+}
+
+.head{
+    font-size: 35px;
+ margin: 0px 0px 0px 450px;
+}
+
+.button{
+    margin: 0px 0px 0px 650px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    height: 50px;
+    width: 5%;
+    
+}
+
+
+.contain{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-indent: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.firstColumn{
+    display: flex;
+    flex-direction: row;
+    text-indent: 20px;
+    color: white;
+    padding: 0px 0px 10px 0px;
+}
+
+.firstColumn > input{
+    border-color: transparent;
+    border-radius: 3px;
+    width: 41%;
+    margin: 0px 0px 0px 20px;
+}
+
+.secondColumn{
+    display: flex;
+    flex-direction: row;
+    text-indent: 20px;
+    color: white;
+}
+
+.secondColumn > input{
+    border-color: transparent;
+    border-radius: 3px;
+    width: 41%;
+    margin: 0px 0px 0px 20px;
+}
+
+.form > div{
+    border-color: transparent;
+    border-radius: 3px;
+    height: 44px;
+
+    margin: 0px 0px 20px 15px;
+   
+}
+
+.select{
+    border-color: transparent;
+    border-radius: 3px;
+    margin: 0px 0px 20px 35px;
+    height: 48px;
+    width: 87%;
+    color: rgba(91, 91, 91, 0.751);
+}
+
+.submit{
+    background-color: rgba(24, 24, 151, 0.832);
+    border-color: transparent;
+    color: white;
+    border-radius: 3px;
+    margin: 0px 0px 0px 35px;
+    width: 87%;
+    height: 15%;
+}
+
+.text{
+    margin: 5px 0px 10px 38px;
+}
+
+.text2{
+    margin: 5px 0px 10px 17px;
+}
