@@ -1,0 +1,497 @@
+*{
+    margin: 0px;
+}
+
+.Back{
+    background-color: white;
+}
+
+.firstPage{
+    background-image: url(Sofa.png);
+    background-size: cover;
+   height: 100vh;
+   
+}
+.titleContainer{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    text-indent: 20px;
+    padding-top: 50px;
+
+}
+.logo{
+font-size: 20px;
+margin-left: 150px;
+}
+
+.titleLinks{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-left: 300px;
+   margin-top: 10px;
+   width: 30%;
+}
+.titleLinks a, a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.body{
+    margin: 220px 200px 0px 300px;
+    color: white; 
+}
+
+.title1{
+    font-size: 70px;
+    width: 60%;
+}
+
+.text1{
+   margin-top: 40px;
+   font-size: 13px;
+}
+
+.shop{
+    margin-left: 20px;
+}  
+
+.button1{
+    padding-top: 3px;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: #186eff;
+    color: white;
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.sectionContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 140px;
+    height: 130px;
+    
+}
+.section1{
+    background-color: white;
+    border-top-right-radius: 70px;
+    width: 80%;
+   
+}
+
+.stextContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 350px;
+}
+
+.sectionText{
+    margin-top: 30px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.sectionText>p{
+    color: rgba(54, 54, 54, 0.504);
+    font-size: 11px;
+}
+
+.sectionIcons{
+  margin-left: 40px;
+}
+
+.leftArrow{
+    margin-right: 10px;
+    border-color: transparent;
+    background-color: #b5b5b57a;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+
+
+.rightArrow{
+    border-color: transparent;
+    background-color: #ffffff;
+    color: black;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+
+
+.suggests{
+    background-image: url(Image1.png);
+    background-repeat: no-repeat;
+    margin: 20px 200px 0px 300px;
+    height: 230px;
+    width: 61%;
+    color: white; 
+    margin-bottom: 80px;
+}
+
+.suggestions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: larger;
+    padding-top: 80px;
+    margin-left: 32%;
+    width: 63%;
+    
+}
+
+
+.suggestions>p>button{
+        background-color: #f4f4f4;
+        border-color: transparent;
+        border-radius: 20px;
+        padding: 0px 15px 0px 15px;
+        margin: 20px 10px 0px 0px;
+        height: 40px;
+}
+
+.fyTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 297px;
+    width:61.5%;
+}
+
+.fyTitle>p{
+    font-size: 20px;
+}
+
+.fyTitle>button{
+    background-color: transparent;
+    border: 2px solid  rgba(193, 193, 193, 0.47);
+    border-radius: 20px;
+    padding: 7px 16px 7px 16px;
+}
+
+.suggPrices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 278px;
+    width: 1095px;
+}
+
+.rightArrow2{
+    border-color: transparent;
+    background-color: #ffffff;
+    color: black;
+    width: 60px;
+    height: 300px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.reasons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 290px;
+    width: 1050px;
+}
+.whyYou{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.Econtainer{
+    background-image: url(image2.png);
+    background-size:contain;
+    height: 200px;
+    color: white; 
+    margin-bottom: 80px;
+}
+
+
+
+.Email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.title6{
+    margin-top: 75px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.input{
+    border-radius: 20px;
+    border-color: transparent;
+    width: 250px;
+    margin-right: 20px;
+    text-indent: 20px;
+}
+
+.button6{
+    border-radius: 20px;
+    width: 100px;
+    border-color: transparent;
+    background-color: #186eff;
+    color: white;
+    font-size: 12px;
+}
+
+.form{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 85px;
+    margin-right: 50px;
+    height: 37px;
+}
+
+.finalContainer{
+    margin: 200px 200px 0px 300px;
+    width: 930px;
+}
+
+
+.linkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 65%;
+}
+
+.linkContainer a, a:link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.footerLinks{
+    margin-top: 3px;
+    margin-left: 45px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.footerLinks>p{
+    color: black;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.footerLinks>b{
+    margin-bottom: 10px;
+}
+
+.copyright{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    width: 45%;
+}
+.copyright a, a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.Terms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+width: 25%;
+
+}
+
+
+.linknicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
+    font-size: 50px;
+}
+
+
+@media only screen and (max-width: 668px) {
+
+    .firstPage{
+        background-image: url(Sofa.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+       height: 100vh;
+    }
+    .logo{
+        font-size: 15px;
+        margin-left: 0px;
+        }
+        
+        .titleContainer{
+            display: flex;
+            flex-direction:row;
+            justify-content: space-between;
+            color: white;
+            text-indent: 0px;
+            padding-top: 15px;
+        }
+
+        .titleLinks{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           margin-left: 0px;
+           margin-top: 5px;
+           font-size: 8px;
+           width: 50%;
+        }
+        .titleLinks a, a:link{
+            color: white;
+            text-decoration: none;
+        }
+        
+        .body{
+          padding-top: 40px;
+          margin: auto;
+          width: 65%;
+          color: white; 
+        }
+        
+        .title1{
+            font-size: 19px;
+            width: 100%;
+        }
+        
+        .text1{
+            margin: auto;
+            width: 37%;
+           margin-top: 20px;
+           font-size: 9px;
+        }
+
+        .button1{
+            padding-top: 3px;
+            padding-right: 14px;
+            border-radius: 30px;
+            border-color: transparent;
+            background-color: #186eff;
+            color: white;
+            font-size: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .shop{
+            margin-left: 10px;
+        } 
+        
+        
+
+     .suggPrices{
+         display: block;
+     }
+
+     .suggPrices>div{
+        margin-bottom: 50px;
+     }
+     .suggPrices>div>p{
+        margin-left: 55px;
+     }
+
+     .sectionContainer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 36px;
+        height: 70px;
+        
+    }
+    .section1{
+        background-color: white;
+        border-top-right-radius: 70px;
+        border-top-left-radius: 70px;
+        width: 80%;
+        margin: auto;
+        margin-left: 20px;
+       
+    }
+    
+    .stextContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .sectionText{
+        margin-top: 10px;
+        color:black;
+        display: flex;
+        flex-direction: column;
+        font-size: 5px;
+    }
+    
+    .sectionText>p{
+        color: rgba(54, 54, 54, 0.504);
+        font-size: 4px;
+    }
+    
+    .leftArrow{
+        margin-right: 0px;
+        border-color: transparent;
+        background-color: #b5b5b57a;
+        color: white;
+        width: 10px;
+        height: 10px;
+        font-size: 4px;
+    }
+
+    .sectionIcons{
+        margin-left: 0px;
+        margin: 20px 12px 0px 0px;
+        
+      }
+    
+    
+    .rightArrow{
+        border-color: transparent;
+        background-color: #ffffff;
+        color: black;
+        width: 10px;
+        height: 10px;
+        font-size: 4px;
+    }
+    .suggests{
+        background-image: url(Image1.png);
+        background-repeat: no-repeat;
+        margin: 20px 0px 0px 0px;
+        height: 230px;
+        width: 61%;
+        color: white; 
+        margin-bottom: 80px;
+    }
+    
+
+}
