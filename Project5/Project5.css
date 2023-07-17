@@ -1,0 +1,220 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #79a2da;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.list a, a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.heroPage{
+    background-image: url(hero.png);
+    background-size: 100%;
+    height: 1100px;
+}
+
+.nav{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    padding-top: 60px;
+    
+}
+
+.logo{
+    height: 45px;
+    margin-left: 40px;
+}
+
+.nav>ul{
+    list-style: none;
+    color: white;
+    font-weight: 750;
+    width: 37%;
+    margin-right: 80px;
+}
+
+.list{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list>li{
+margin-top: 9px;
+}
+
+.heroText{
+ margin-top: 180px;
+ margin-left: 70px;
+}
+
+.heroText>h1{
+    width: 55%;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.heroText>p{
+    width: 22%;
+    font-size: 26px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.ticketBn{
+    border:0px;
+    border-radius: 20px;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px;
+    width: 155px;
+}
+
+.list>span>li>button{
+    font-size: 14px;
+    width: 130px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.whyText{
+    margin-top: 50px;
+    width: 35%;
+}
+
+.pool{
+    height: 700px;
+}
+
+.listHeader{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.whyText>h1{
+    font-size: 55px;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+.whyText_list>ul{
+    list-style: none;
+}
+
+
+.whyText_listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.list_icons>img{
+    height: 40px;
+    margin-top: 33px;
+    margin-bottom: 60px;
+}
+
+.list_icons{
+    width: 10px;
+}
+
+.speaker{
+    margin: auto;
+    margin-top: 200px;
+    width: 30%;
+}
+
+.speaker>img{
+    height: 200px;
+}
+
+
+
+.profileCard{
+    background-color: white;
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.profileCard>div{
+    margin-top: 25px;
+}
+
+
+
+.profileImage{
+    height: 75px;
+    border-radius: 30px;
+    margin-left: 74px;
+    margin-bottom: 12px;
+}
+
+.profileCard_text{
+    text-align: center; 
+}
+
+.profileCard_text>p{
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.profileCard_text>h5{
+    font-weight: 800;
+}
+
+.profileRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 17px;
+
+}
+
+
+
+.profileRowf>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 17px;
+    width: 40%;
+    
+
+}
+
+.profileContainer{
+    margin: auto;
+    width: 74%;
+}
+
+.speakerHeader{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.speakerHeader>h1{
+    font-weight: 800;
+}
