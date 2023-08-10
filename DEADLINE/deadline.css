@@ -32,11 +32,15 @@ display: block;
 width: 20px;
 height: 3px;
 margin: 4.2px auto;
--webkit-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
 }
 
 .hamburger{
+    display: none;
+    cursor: pointer;
+}
+.hamburger2{
     display: none;
     cursor: pointer;
 }
@@ -78,7 +82,7 @@ transition: all 0.3s ease-in-out;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 9px;
+    margin-top: 60px;
     width: 360px;
 }
 
@@ -396,9 +400,6 @@ transition: all 0.3s ease-in-out;
 }
 
 
-.SECTION{
-    
-}
 
 .firstContainer{
     display: flex;
@@ -762,8 +763,10 @@ font-size: 14px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: auto;
-        width: 82%;
+        margin: 0px;
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 90%;
     }
 
     .navLinks a, a:link{
@@ -785,17 +788,39 @@ font-size: 14px;
       .hamburger.active  .bar:nth-child(3){
        transform: translateY(-8px) rotate(-45deg);
       }
+
+      .hamburger.active{
+        display: none;
+    }
+      
+    .hamburger2{
+        display: block;
+        margin-left: auto;
+        padding-top: 6px;
+        width: 40%;
+      }
+   
+      .hamburger2.active  .bar:nth-child(2){
+          opacity: 0;
+      }
+   
+      .hamburger2.active  .bar:nth-child(1){
+       transform: translateY(8px) rotate(45deg);
+   }
+      .hamburger2.active  .bar:nth-child(3){
+       transform: translateY(-8px) rotate(-45deg);
+      }
     
     .logo{
-        margin-top: 35px;
+        margin-top: 7px;
     }
     
     .logo>img{
-        height: 10px;
+        height: 14px;
     }
 
     .logo>i{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .navLinks{
@@ -804,7 +829,7 @@ font-size: 14px;
         left: -100%;
         top: 10px;
         justify-content: space-around;
-        background-color: #262626;
+        background-color: #262626de;
         width: 49%;
         text-align: center;
         transition: 0.3s;
@@ -819,13 +844,18 @@ left: 0;
     }
 
     .searchnicons{
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 17px;
-        width: 30px;
+        margin-top: 7px;
+        width: 60px;
     }
     
+    .searchnicons>button{
+       margin-left: 20px;
+       margin-right: 10px;
+    }
+
     .search{
         border: 1px solid;
         background-color: #f9fbfc;
@@ -860,7 +890,7 @@ left: 0;
        height: 200px;
        width: 85%;
        margin: auto;
-       margin-top: 40px;
+       margin-top: 30px;
        }
 
        .heroText{
@@ -1221,9 +1251,6 @@ left: 0;
       
         margin-top: 10px;
     }
-    .footerLinks>p>a{
-       
-    }
     
     .footerLinks>b{
         margin-bottom: 3px;
@@ -1351,7 +1378,7 @@ left: 0;
 }
 
 .text6{
-    margin: 40px 30px 0px 0zzzzpx;
+    margin: 40px 30px 0px 0px;
     font-size:20px;
     display: flex;
     flex-direction: column;
