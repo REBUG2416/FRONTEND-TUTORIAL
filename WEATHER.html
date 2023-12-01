@@ -1,18 +1,33 @@
-<!DOCTYPE html>
+                                            <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="WEATHER.css">
     <script defer src="WEATHER.js"></script>
 </head>
-<body>
-    <span>Enter in your City</span>
-    <input type="text" class="city" id="city">
-    <button class="btn" id="btn">FETCH</button>
-    <p><span>Temperature: </span><span id="temp"></span></p>
-    <p><span>Wind: </span><span id="wind"></span></p>
-    <p><span>Rain: </span><span id="rain"></span></p>
+<body class="body">
+    <img src="logo.png" alt="" style="width: 20px;">
+    <div class="container">
+    <span class="text">THE ONLY WEATHER FORECAST YOU NEED</span>
+    <div class="input">
+    <input type="text" class="city" id="city" placeholder="Enter in your region">
+    <button class="btn" id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    
+    <div style="text-align: center ; margin-top: 30px; color:rgb(255, 237, 215)">
+    <h1 id="Name" style="text-decoration: underline; margin-bottom: 10px;"></h1>
+   <p class="txt2"> <i class="fa-solid fa-temperature-three-quarters"></i>&nbsp;&nbsp;<span>Temperature: </span><span id="temp"></span></p>
+   <p class="txt2"> <i class="fa-solid fa-wind"></i>&nbsp;&nbsp;<span>Wind: </span><span id="wind"></span></p>
+    <p class="txt2"><i class="fa-solid fa-cloud-rain"></i>&nbsp;&nbsp;<span>Rain: </span><span id="rain"></span></p>
+   </div>
+   </div>
+
+   <script src="https://kit.fontawesome.com/0bc362d390.js" crossorigin="anonymous"></script>
+   <script src="Firebase/firebase.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore-compat.js"></script>
 </body>
 </html>

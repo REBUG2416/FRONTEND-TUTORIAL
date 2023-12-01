@@ -12,7 +12,7 @@ form.addEventListener('submit', e => {
 
 const setError = (element, message) => {
     const inputControl = element.parentElement;
-    const errorDisplay = inputControl.querySelector('.error');
+    const errorDisplay = inputControl.querySelector('.error');   
 
     errorDisplay.innerText = message;
     inputControl.classList.add('error');
