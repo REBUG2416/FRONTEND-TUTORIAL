@@ -1,3 +1,4 @@
+/*
 const arr=["i","a","w","c","h","f","x","i"]
 var nam="ihifix";
 
@@ -62,15 +63,26 @@ const evenNumbers = num.filter(function(num) {
 
  console.log(nameArr.includes("Alice"))
 
-console.log(nameArr.reduce((accumulator, currentValue, indexOfCurrentValue, totalArrayElement) => accumulator + currentValue.length, 0))
+console.log(nameArr.reduce((accumulator, currentValue) => accumulator + currentValue.length, 0))
 
 
-bookarr=[book1={title: "Javascript", Author: "IDK"},book2={title: "Harry Poter", Author: "J.K Rowling"},book3={title: "Harry Poter II", Author: "J.K Rowling"}]
+bookarr=[book1 = {title: "Javascript", Author: "IDK"},book2 = {title: "Harry Poter", Author: "J.K Rowling"},book3 = {title: "Harry Poter II", Author: "J.K Rowling"}]
 
 console.log(JKarr = bookarr.filter((e)=> (e.Author === "J.K Rowling") ))
 
-console.log(bookarr.find((e)=> e.title ==="Javascript"))
+console.log(bookarr.find((e)=> e.title ==="Javascript" ))
 
-console.log()
+console.log(bookarr.map((e)=> (e.Author ==="J.K Rowling") ? (e.title) : '' ))
 
- 
+let sjson = JSON.stringify(bookarr[0])
+console.log(sjson)
+
+const person = { firstName: 'John', lastName: 'Doe', age: 30, }; 
+let txt = ""; 
+for (let x in person) 
+{ 
+    txt += person[x] + " "; 
+} 
+console.log(txt);
+*/
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beating Heart Animation</title>
+  <style>
+ @import url('https://fonts.cdnfonts.com/css/paint-brush-script');
+ @import url('https://fonts.cdnfonts.com/css/drip-october');
+    body {
+      height: 100vh;
+      margin: 0;
+      border: 1px solid ;
+      background-image: url("cv1-02.jpg");
+      background-size: contain;
+      height: 100vh;
+
+    }
+
+    .container>h1{
+    color: rgb(226, 0, 0);
+    font-family: 'Paint Brush Script', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .heart {
+      color:#0000ff ; 
+      font-size: 120px;
+      position: fixed;
+      top: 32%;
+      animation: heartbeat-blue ease-in-out 2.5s infinite alternate;
+      right: 82%;
+  
+    }
+   
+    .text{
+      display: flex;
+      color: #fff;
+      flex-direction: column;
+      font-family: 'Drip October', sans-serif;
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      font-size: 20px;
+    }
+
+   
+
+    @keyframes heartbeat-blue {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+       from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0000ff, 0 0 40px #0000ff, 0 0 50px #0000ff, 0 0 60px #0000ff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #7878e1, 0 0 40px #7878e1, 0 0 50px #7878e1, 0 0 60px #7878e1, 0 0 70px #7878e1;
+  }
+    }
+
+
+     @keyframes heartbeat-purple {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+       from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #800080, 0 0 40px #800080, 0 0 50px #800080, 0 0 60px #800080;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #e24de2, 0 0 40px #e24de2, 0 0 50px #e24de2, 0 0 60px #e24de2, 0 0 70px #e24de2;
+  }
+}
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Happy Valentines Day</h1>
+  <div class="heart"><i class="fa-solid fa-heart"></i></div>
+  <div class="text"><span>In the realm of love, <br> a poem for Kebabi,
+A tale of affection, sweet as cherry pie.
+
+Kebabi, a name so unique and rare,
+In your presence, love fills the air.
+
+Your smile, a radiant and warm embrace,
+A symphony of joy, a tender grace.</span>
+<img src="heart2.png" style="width: 80px; margin-left: 125px;">
+</div>
+
+
+  <div class="heart" style="left: 82%; color: #800080; animation:heartbeat-purple ease-in-out 2.5s infinite alternate;"><i class="fa-solid fa-heart"></i></div>
+</div>
+  <script src="https://kit.fontawesome.com/0bc362d390.js" crossorigin="anonymous"></script>
+</body>
+</html>
