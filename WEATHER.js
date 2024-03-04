@@ -33,5 +33,6 @@ btn.addEventListener("click", function () {
       wind.innerHTML = windV;
       rain.innerHTML = rainV;
       Name.innerHTML = city.value;
+      
     });
 });

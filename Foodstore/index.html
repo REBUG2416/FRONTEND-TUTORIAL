@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Foodstore</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <i class="fa-brands fa-squarespace"></i>&nbsp;&nbsp;<img
+          src="logo.png"
+          alt=""
+        />
+      </div>
+
+      <div class="navLinks">
+        <a href="index.html"
+          ><button
+            class="navlink"
+            style="background-color: rgba(227, 227, 227, 0.696); color: black"
+          >
+            Home
+          </button></a
+        >
+        <a href="shop.html"><button class="navlink">Recipes</button></a>
+        <a href="About.html"><button class="navlink">About Us</button></a>
+        <a><button class="navlink" id="btn3">Contact Us</button></a>
+      </div>
+    </div>
+
+    <div class="section1">
+      <div class="heroPage">
+        <h1>Explore Our Many Recipes</h1>
+        <span>With us. Even You can be a Chef</span>
+        <a href="shop.html"><button class="button">Explore</button></a>
+      </div>
+    </div>
+
+    <div class="search-section">
+      <h1>Looking for Something?</h1>
+      <label>Search our massive collection for any Recipe you desire</label
+      ><br />
+      <div class="search-container">
+        <span class="span">
+          <input
+            type="text"
+            class="input"
+            id="item"
+            placeholder="Enter in your search"
+          />
+          <button class="input-btn" id="btn">SEARCH</button></span
+        >
+      </div>
+    </div>
+    <h1 class="recipe-header" id="recipe-header"></h1>
+    <div class="recipe-card-container" id="recipe-container"></div>
+
+    <div class="container7" id="bottom">
+      <div class="textContainer5">
+        <h1>NOSTRA</h1>
+        <p>Complete your style with awesome clothes from us.</p>
+        <div class="socials">
+          <button>
+            <i class="fa-brands fa-instagram" style="color: black"></i>
+          </button>
+          <button>
+            <i class="fa-brands fa-linkedin" style="color: black"></i>
+          </button>
+          <button>
+            <i class="fa-brands fa-tiktok" style="color: black"></i>
+          </button>
+          <button>
+            <i class="fa-brands fa-facebook" style="color: black"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="linkContainer">
+        <span class="footerLinks"
+          ><b>Company</b>
+          <p><a href="">About</a></p>
+          <p><a href="">Contact us</a></p>
+          <p><a href="">Support</a></p>
+          <p><a href="">Careers</a></p>
+        </span>
+
+        <span class="footerLinks"
+          ><b>Quick Link</b>
+          <p><a href="">Share Location</a></p>
+          <p><a href="">Orders Tracking</a></p>
+          <p><a href="">Size Guide</a></p>
+          <p><a href="">FAQs</a></p>
+        </span>
+
+        <span class="footerLinks"
+          ><b>Legal</b>
+          <p><a href="">Terms & conditions</a></p>
+          <p><a href="">Privacy Policy</a></p>
+        </span>
+      </div>
+    </div>
+
+    <div class="blur" id="blur">
+      <button onclick="seeDetails()" class="exitButton">X</button>
+      <div class="details-container">
+        <div>
+          <div class="details1" id="details1">
+            <img id="details-image" />
+            <div>
+              <h1 id="details-Header"></h1>
+              <h3>Nutrition</h3>
+              <hr />
+              <span id="nutrition-container"></span>
+            </div>
+          </div>
+          <div class="details2">
+            <div class="ingredients-container" id="ingredients-container">
+              <h4>Ingredients</h4>
+              <hr />
+              <div id="ingredients"></div>
+            </div>
+            <div class="preparation-container">
+              <h4>Prepartion</h4>
+              <hr />
+              <span
+                ><button id="instructions">Instructions</button> on
+                <a id="link"></a
+              ></span>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0bc362d390.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
