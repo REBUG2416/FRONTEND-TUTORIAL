@@ -1,8 +1,31 @@
+const hamburger = document.querySelector(".hamburger");
+const hamburger2 = document.querySelector(".hamburger2");
+const navMenu = document.querySelector(".navLinks");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+hamburger2.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  hamburger2.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-Link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    hamburger2.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
+
 const recipeContainer = document.getElementById("recipe-container");
 let recipeData;
 async function getUsers() {
-    const url =
-      "https://api.edamam.com/api/recipes/v2?type=public&q=food&app_id=f1a5068a&app_key=0dfa2e44c74976e2a3354c433a00daa4";
+  const url =
+    "https://api.edamam.com/api/recipes/v2?type=public&q=food&app_id=f1a5068a&app_key=0dfa2e44c74976e2a3354c433a00daa4";
   const options = {
     method: "GET",
     headers: { accept: "application/json", "Accept-Language": "en" },
@@ -55,9 +78,7 @@ async function getUsers() {
   return recipeData;
 }
 
-getUsers()
-
-
+getUsers();
 
 const blurElement = document.getElementById("blur");
 blurElement.style.left = "-100%";
@@ -96,6 +117,3 @@ function seeDetails(index) {
     blurElement.style.left = "-100%";
   }
 }
-
-
-
