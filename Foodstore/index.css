@@ -505,11 +505,11 @@ margin-top: 10px;
         color: white;
     }
 
-    .hamburger{
-        margin-right: 10px;
-        margin-top: 5px;
-        display: block;
-      }
+  .hamburger {
+    margin-right: 30px;
+    margin-top: 7px;
+    display: block;
+  }
    
       .hamburger.active  .bar:nth-child(2){
           opacity: 0;
@@ -544,10 +544,10 @@ margin-top: 10px;
        transform: translateY(-8px) rotate(-45deg);
       }
     
-    .logo{
-        margin-top: 7px;
-          margin-left: 5px;
-    }
+  .logo {
+    margin-top: 7px;
+    margin-left: 25px;
+  }
     
     .logo>img{
         height: 14px;
@@ -585,19 +585,40 @@ left: 0;
 }
 
 .section1{
+  background-image: none;
   padding-top:40.5px;
   height: 233.7px;
 }
 
 .heroPage{
 width: 100%;
-height: 200px;
+height: 380px;
+background-size: 500px 380px;
 border-radius: 0px;
 text-align: left;
-padding-top: 45px;
+padding-top: 115px;
 padding-left: 10px;
+margin-top: 0px;
+line-height: 35px;
 }
 
+
+/* .heroPage {
+  display: flex;
+  flex-direction: column;
+  background-image: url(Heo1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ */
 .heroPage > h1 {
   font-size: 23px;
   margin-bottom: 4px;
@@ -621,10 +642,10 @@ padding-left: 10px;
   padding-top: 40px;
   height: 320px;
     background-image: url(Heo.png);
-    background-size: 370px 360px;
+    background-size: 420px 360px;
       background-repeat: no-repeat;
 width: 100%;
-margin-top: 0px;
+margin-top: 188px;
 margin-bottom: 0px;
 }
 
